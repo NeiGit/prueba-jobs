@@ -1,4 +1,4 @@
-name: COVERAGE
+name: CI Jobs
 on:
   pull_request:
   push:
