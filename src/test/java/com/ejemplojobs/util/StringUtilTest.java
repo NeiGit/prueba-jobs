@@ -8,8 +8,9 @@ class StringUtilTest {
 
     @Test
     void testIsNullOrEmpty() {
-        assertTrue(StringUtil.isNullOrEmpty(null));
-        assertTrue(StringUtil.isNullOrEmpty(""));
-        assertFalse(StringUtil.isNullOrEmpty("not-empty"));
+        StringUtil stringUtil = new StringUtil();
+        assertTrue(stringUtil.isNullOrEmpty(null));
+        assertTrue(stringUtil.isNullOrEmpty(""));
+        assertFalse(stringUtil.isNullOrEmpty("not-empty"));
     }
 }
