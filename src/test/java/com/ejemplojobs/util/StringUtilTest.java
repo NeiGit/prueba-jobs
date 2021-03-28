@@ -13,4 +13,11 @@ class StringUtilTest {
         assertTrue(stringUtil.isNullOrEmpty(""));
         assertFalse(stringUtil.isNullOrEmpty("not-empty"));
     }
+
+    @Test
+    void testCountCharacters() {
+        StringUtil stringUtil = new StringUtil();
+        assertEquals(5, stringUtil.countCharacters("cinco"));
+        assertEquals(3, stringUtil.countCharacters(null));
+    }
 }
