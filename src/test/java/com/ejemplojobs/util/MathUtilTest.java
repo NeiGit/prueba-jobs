@@ -1,4 +1,4 @@
-package com.ejemplojobs.math;
+package com.ejemplojobs.util;
 
 import org.junit.jupiter.api.Test;
 
