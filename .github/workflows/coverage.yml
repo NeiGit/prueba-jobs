@@ -1,4 +1,4 @@
-name: Java CI
+name: COVERAGE
 on:
   pull_request:
   push:
@@ -15,5 +15,5 @@ jobs:
         run: mvn test jacoco:report
       - name: Upload to Codecov
         env:
-          CODECOV_TOKEN: $
+          CODECOV_TOKEN: b6ef52af-279a-40fe-a78b-47ab7a82b776
         run: bash <(curl -s https://codecov.io/bash)
