@@ -1,4 +1,4 @@
-package com.ejemplojobs.math;
+package com.ejemplojobs.util;
 
 public class MathUtil {
 
