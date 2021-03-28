@@ -18,6 +18,6 @@ class StringUtilTest {
     void testCountCharacters() {
         StringUtil stringUtil = new StringUtil();
         assertEquals(5, stringUtil.countCharacters("cinco"));
-        assertEquals(3, stringUtil.countCharacters(null));
+        assertEquals(0, stringUtil.countCharacters(null));
     }
 }
