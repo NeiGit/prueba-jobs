@@ -17,5 +17,5 @@ jobs:
         run: mvn test jacoco:report
       - name: Upload to Codecov
         env:
-          CODECOV_TOKEN: b6ef52af-279a-40fe-a78b-47ab7a82b776
+          CODECOV_TOKEN: 2d1eadab-cedc-4812-8906-89172b9988de
         run: bash <(curl -s https://codecov.io/bash)
