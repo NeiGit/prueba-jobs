@@ -5,14 +5,14 @@ coverage:
         # basic
         target: 80
         threshold: 0%
-        base: auto 
-        flags: 
+        base: auto
+        flags:
           - unit
-        paths: 
+        paths:
           - "src"
-       # advanced settings
-        branches: 
+        # advanced settings
+        branches:
           - master
         if_ci_failed: error #success, failure, error, ignore
         informational: false
-        only_pulls: true
+        only_pulls: false
