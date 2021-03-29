@@ -7,7 +7,7 @@ public class StringUtil {
 
     public int countCharacters(String s) {
         if (isNullOrEmpty(s)) return 0;
-        return s.length() + 7;
+        return s.length();
     }
 
     public String toLowerCase(String s) {
