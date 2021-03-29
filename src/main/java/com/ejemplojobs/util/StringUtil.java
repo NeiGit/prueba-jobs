@@ -9,4 +9,8 @@ public class StringUtil {
         if (isNullOrEmpty(s)) return 0;
         return s.length();
     }
+
+    public String toLowerCase(String s) {
+        return s.toLowerCase();
+    }
 }

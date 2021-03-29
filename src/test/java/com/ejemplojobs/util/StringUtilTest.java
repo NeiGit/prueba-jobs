@@ -20,4 +20,10 @@ class StringUtilTest {
         assertEquals(5, stringUtil.countCharacters("cinco"));
         assertEquals(0, stringUtil.countCharacters(null));
     }
+
+    @Test
+    void testToLowerCase() {
+        StringUtil stringUtil = new StringUtil();
+        assertEquals("lowercase", stringUtil.toLowerCase("LOWERCASE"));
+    }
 }
